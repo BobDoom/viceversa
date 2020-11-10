@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views_vv.home_vv),    # Функция, которая присылает ответ на запрос (страницу HTML)
     path('home/', views_vv.home_vv),
+    path('reversed/', views_vv.reverse, name='reverse'),
+
 ]

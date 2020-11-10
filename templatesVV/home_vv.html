@@ -10,13 +10,13 @@
 <body>
     <h1>Vice Versa</h1>
 
-    <form>
-        <textarea id="viceversa" name="viceversa" rows="9" cols="70">
+    <form action="{% url 'reverse' %}">  
+        <textarea id="viceversa" name="usertext" rows="9" cols="70">
         </textarea>
         
         <p></p>
 
-        <input type="submit" value="Reverce!">
+        <input type="submit" value="Reverse!">
 
     </form>
 
